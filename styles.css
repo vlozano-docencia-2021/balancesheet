@@ -39,14 +39,22 @@ section{
   margin: 0 auto;
   border: 2px solid #d0d0d5;
 }
-#years{
+#years {
   display: flex;
   justify-content: flex-end;
   position: sticky;
   top: 0;
+  background: #0a0a23;
+  color: #fff;
+  z-index: 999;
+  margin: 0 -2px;
+  padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
 }
-
-
+#years span[class]{
+  font-weight: bold;
+  width: 4.5rem;
+  text-align: right;
+}
 
 
 
